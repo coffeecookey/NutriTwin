@@ -9,7 +9,7 @@ NutriTwin also includes a **Hyper-Personalized Craving Replacement System** — 
 ## Table of Contents
 
 - [Overview](#overview)
-- [Architecture](#architecture)
+- [Architecture](#architecture-and-demo-video)
 - [Tech Stack](#tech-stack)
 - [Core Features](#core-features)
   - [1. Recipe Health Analysis](#1-recipe-health-analysis)
@@ -40,7 +40,11 @@ The system is designed to **degrade gracefully**: even when external APIs are do
 
 ---
 
-## Architecture
+## Architecture and Demo video
+
+Click on the image to watch the video on youtube -
+[![Watch the demo](https://img.youtube.com/vi/NL6pyNp5tKE/maxresdefault.jpg?v=2)](https://youtu.be/NL6pyNp5tKE)
+
 The system is a **full-stack recipe health analysis and ingredient swap** application: 
 a React/Vite frontend talks to a FastAPI backend, which orchestrates CosyLab APIs (RecipeDB, FlavorDB), 
 local rule-based engines, and optional LLM (Gemini) for explanations and swap suggestions. 
